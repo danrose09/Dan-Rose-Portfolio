@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+header {
+  background-color: #041c32;
+}
+
+.navbar__container {
+  margin: 0;
+}
+
+.link__text {
+  color: white !important;
+}
+
+.link__text:hover {
+  color: #e94560 !important;
+}

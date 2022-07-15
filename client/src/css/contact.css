@@ -1,0 +1,40 @@
+.contact__section {
+  background-color: #1a1a2e;
+  padding-bottom: 100px;
+}
+
+.contact__title {
+  padding-top: 75px;
+  color: #e94560;
+}
+
+.contact__row {
+  padding: 5px;
+}
+
+.contact__input {
+  width: 100%;
+  background-color: #141e27;
+  border-color: #141e27;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.contact__label {
+  width: 20px;
+  padding-left: 0;
+}
+
+.contact__submit {
+  width: 100%;
+  background-color: #e94560;
+  border-color: #e94560;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact__submit:hover {
+  background-color: #e94560;
+  border-color: #e94560;
+}

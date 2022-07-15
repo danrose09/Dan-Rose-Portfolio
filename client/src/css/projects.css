@@ -1,0 +1,30 @@
+.image__container {
+  opacity: 1;
+  z-index: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.image__container:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+.card {
+  border: none;
+}
+
+.bg {
+  background-color: #141e27 !important;
+  border: none;
+}
+
+.btn-outline-primary {
+  color: white !important;
+  border-color: white !important;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e94560;
+  border-color: #e94560 !important;
+}

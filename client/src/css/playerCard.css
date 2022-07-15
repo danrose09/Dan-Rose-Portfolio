@@ -1,0 +1,13 @@
+.player__card__image {
+  height: 20vh;
+  width: auto;
+  padding-bottom: 10px;
+}
+
+.player__card__image:hover {
+  cursor: pointer;
+}
+
+.game__button {
+  width: auto;
+}
