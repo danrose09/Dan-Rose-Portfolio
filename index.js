@@ -12,7 +12,7 @@ console.log(publicPath);
 console.log(buildPath);
 app.get("*", (req, res) => {
   try {
-    res.sendFile(path.join(publicPath, "index.html"));
+    res.sendFile(path.join(buildPath, "index.html"));
     console.log("Sent:", path);
   } catch (error) {
     console.log(error);
