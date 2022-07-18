@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 5000;
 
-app.use(express.static(path.join(__dirname, "client/public")));
+app.use(express.static("client/public"));
 console.log(publicPath);
 app.get("*", (req, res) => {
   try {
