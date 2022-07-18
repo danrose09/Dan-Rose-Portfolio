@@ -7,17 +7,12 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 5000;
 
-app.use(express.static("client/build"));
+app.use(express.static(publicPath));
 console.log(publicPath);
 console.log(buildPath);
 app.get("*", (req, res) => {
-  try {
-    res.sendFile(path.join(publicPath, "index.html"));
-    console.log("Sent:", path);
-  } catch (error) {
-    console.log(error);
-    return 1;
-  }
+  res.sendFile(path.join(publicPath, "index.html"));
+  console.log("Sent:", path);
 });
 
 app.listen(port, (err) => {
