@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 5000;
 
-app.use(express.static(publicPath));
+app.use(express.static(buildPath));
 console.log(publicPath);
 console.log(buildPath);
 app.get("*", (req, res) => {
