@@ -7,9 +7,10 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 5000;
 
-app.use(express.static(buildPath));
+app.use("./static", express.static(buildPath));
 console.log(publicPath);
 console.log(buildPath);
+console.log(__dirname);
 app.get("*", (req, res) => {
   res.sendFile(path.join(publicPath, "index.html"));
   console.log("Sent:", path);
