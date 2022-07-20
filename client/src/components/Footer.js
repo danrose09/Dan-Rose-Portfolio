@@ -22,7 +22,7 @@ const Footer = () => {
       </Row>
       <Row>
         <Col>
-          <p style={{ color: "#e94560" }}>www.danrose.com</p>
+          <p style={{ color: "#e94560" }}>dan-rose.herokuapp.com</p>
         </Col>
       </Row>
     </div>
