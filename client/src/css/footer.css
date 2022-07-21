@@ -1,9 +1,11 @@
 .footer__section {
   height: auto;
-  background-color: #141e27;
+  background-color: #2c3333;
 }
 
 .social__icons {
   color: #e94560;
   padding: 25px 15px 10px 15px;
 }
+
+/* background-color: #141e27; */
